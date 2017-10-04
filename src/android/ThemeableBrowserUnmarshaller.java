@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.initialxy.cordova.themeablebrowser;
+package com.rafaelodassi.cordova.themeablebrowser;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -87,7 +87,7 @@ public class ThemeableBrowserUnmarshaller {
      *            or private static class. Inner class will not work.
      * @param <T> Same type as cls.
      * @return An instance of class given by cls.
-     * @throws com.initialxy.cordova.themeablebrowser.ThemeableBrowserUnmarshaller.TypeMismatchException
+     * @throws com.rafaelodassi.cordova.themeablebrowser.ThemeableBrowserUnmarshaller.TypeMismatchException
      */
     public static <T> T JSONToObj(String json, Class<T> cls) {
         T result = null;
@@ -112,7 +112,7 @@ public class ThemeableBrowserUnmarshaller {
      *            or private static class. Inner class will not work.
      * @param <T> Same type as cls.
      * @return An instance of class given by cls.
-     * @throws com.initialxy.cordova.themeablebrowser.ThemeableBrowserUnmarshaller.TypeMismatchException
+     * @throws com.rafaelodassi.cordova.themeablebrowser.ThemeableBrowserUnmarshaller.TypeMismatchException
      */
     public static <T> T JSONToObj(JSONObject jsonObj, Class<T> cls) {
         T result = null;
@@ -203,7 +203,7 @@ public class ThemeableBrowserUnmarshaller {
      *                    field.getGenericType().
      * @return Object of the given type so it can be assinged to field with
      * field.set().
-     * @throws com.initialxy.cordova.themeablebrowser.ThemeableBrowserUnmarshaller.TypeMismatchException
+     * @throws com.rafaelodassi.cordova.themeablebrowser.ThemeableBrowserUnmarshaller.TypeMismatchException
      */
     private static Object valToType(Object val, Type genericType) {
         Object result = null;
@@ -352,7 +352,7 @@ public class ThemeableBrowserUnmarshaller {
      * @param cls
      * @param val
      * @return
-     * @throws com.initialxy.cordova.themeablebrowser.ThemeableBrowserUnmarshaller.TypeMismatchException
+     * @throws com.rafaelodassi.cordova.themeablebrowser.ThemeableBrowserUnmarshaller.TypeMismatchException
      */
     private static Object convertToPrimitiveFieldObj(Object val, Class<?> cls) {
         Class<?> valClass = val.getClass();

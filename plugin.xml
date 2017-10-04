@@ -20,15 +20,15 @@
 
 <plugin
       xmlns="http://apache.org/cordova/ns/plugins/1.0"
-      id="cordova-plugin-themeablebrowser-lecom"
+      id="cordova-plugin-browser-formapp"
       version="0.2.17">
 
     <name>ThemeableBrowser</name>
-    <description>Cordova ThemeableBrowser Plugin</description>
+    <description>Cordova Browser FormApp Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,in,app,browser,themeablebrowser</keywords>
-    <repo>https://github.com/rafaelodassi/cordova-plugin-themeablebrowser-lecom.git</repo>
-    <issue>https://github.com/rafaelodassi/cordova-plugin-themeablebrowser-lecom/issues</issue>
+    <repo>https://github.com/rafaelodassi/cordova-plugin-browser-formapp.git</repo>
+    <issue>https://github.com/rafaelodassi/cordova-plugin-browser-formapp/issues</issue>
 
     <engines>
       <engine name="cordova" version=">=3.1.0" />
@@ -41,14 +41,14 @@
         </js-module>
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="ThemeableBrowser">
-                <param name="android-package" value="com.initialxy.cordova.themeablebrowser.ThemeableBrowser"/>
+                <param name="android-package" value="com.rafaelodassi.cordova.themeablebrowser.ThemeableBrowser"/>
             </feature>
         </config-file>
 
-        <source-file src="src/android/ThemeableBrowser.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
-        <source-file src="src/android/ThemeableBrowserDialog.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
-        <source-file src="src/android/InAppChromeClient.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
-        <source-file src="src/android/ThemeableBrowserUnmarshaller.java" target-dir="src/com/initialxy/cordova/themeablebrowser" />
+        <source-file src="src/android/ThemeableBrowser.java" target-dir="src/com/rafaelodassi/cordova/themeablebrowser" />
+        <source-file src="src/android/ThemeableBrowserDialog.java" target-dir="src/com/rafaelodassi/cordova/themeablebrowser" />
+        <source-file src="src/android/InAppChromeClient.java" target-dir="src/com/rafaelodassi/cordova/themeablebrowser" />
+        <source-file src="src/android/ThemeableBrowserUnmarshaller.java" target-dir="src/com/rafaelodassi/cordova/themeablebrowser" />
     </platform>
 
     <!-- ios -->

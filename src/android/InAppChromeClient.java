@@ -16,7 +16,7 @@
        specific language governing permissions and limitations
        under the License.
 */
-package com.initialxy.cordova.themeablebrowser;
+package com.rafaelodassi.cordova.themeablebrowser;
 
 import org.apache.cordova.CordovaWebView;
 import org.apache.cordova.LOG;
