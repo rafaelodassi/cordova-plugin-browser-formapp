@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-browser-formapp",
-  "version": "0.2.17",
+  "version": "0.3.0",
   "description": "Cordova Browser FormApp Plugin",
   "cordova": {
     "id": "cordova-plugin-browser-formapp",
