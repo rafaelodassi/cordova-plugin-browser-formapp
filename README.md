@@ -17,7 +17,7 @@
     under the License.
 -->
 
-O plugin é um fork de [cordova-plugin-themeablebrowser](https://github.com/initialxy/cordova-plugin-themeablebrowser). Acesse a [documentação](https://github.com/initialxy/cordova-plugin-themeablebrowser) completa no repositório original.
+`cordova-plugin-browser-formapp` é um fork de [cordova-plugin-themeablebrowser](https://github.com/initialxy/cordova-plugin-themeablebrowser). Acesse a [documentação](https://github.com/initialxy/cordova-plugin-themeablebrowser) completa no repositório original.
 
 License
 -------
