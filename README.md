@@ -22,4 +22,4 @@
 License
 -------
 
-This project is licensed under Aapache License 2.0. See [LICENSE](LICENSE) file.
+Apache License 2.0. [LICENSE](LICENSE).
