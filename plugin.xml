@@ -20,7 +20,7 @@
 
 <plugin
       xmlns="http://apache.org/cordova/ns/plugins/1.0"
-      id="cordova-plugin-themeablebrowser"
+      id="cordova-plugin-themeablebrowser-lecom"
       version="0.2.17">
 
     <name>ThemeableBrowser</name>
